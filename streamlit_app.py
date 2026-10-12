@@ -6,8 +6,8 @@ st.title("Test app")
 
 st.markdown("""
     <style>
-        footer {
-            visibility: hidden;
+        [data-testid="stFooter"] {
+            display: none;
         }
     </style>
 """, unsafe_allow_html=True)
